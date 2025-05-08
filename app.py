@@ -12,7 +12,7 @@ import tempfile
 
 
 # Streamlit Interface Initialization Section 2
-st.title("Misinformation Dynamic Network Simulation")
+st.title("Computational Infodemic belief system map")
 st.sidebar.header("Simulation Parameters")
 N = st.sidebar.slider("Number of Agents", min_value=50, max_value=500, value=100, step=10)
 misinformation_spread_prob = st.sidebar.slider("Misinformation Spread Probability", min_value=0.0, max_value=1.0, value=0.3, step=0.05)
