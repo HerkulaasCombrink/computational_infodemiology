@@ -53,9 +53,9 @@ belief_counts = {"Believers": [len(agent_types["Believer"])],
                  "Rewards_Believer": [0]}
 #if st.button("Start Simulation"):
 # Simulation UI and Trigger Section 5
-st.sidebar.write("Click the button below to start the simulation.")
-if st.sidebar.button("Start Simulation"):
-
+#st.sidebar.write("Click the button below to start the simulation.")
+#if st.sidebar.button("Start Simulation"):
+if st.button("Start Simulation"):
     progress_bar = st.progress(0)
     status_text = st.empty()
     network_plot = st.empty()
